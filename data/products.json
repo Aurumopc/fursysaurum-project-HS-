@@ -32,30 +32,51 @@
         "image": "images/FBD/feat_02.jpg"
       }
     ],
-    "color_options": {
-      "images": [
-        "images/FBD/color_01.jpg"
-      ],
-      "materials": []
-    },
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
     "spec_table": [
       {
         "product_code": "FBD214",
         "width_mm": 1400,
         "depth_mm": 833,
-        "height_mm": 720
+        "height_mm": 720,
+        "leg_type": "단면형"
       },
       {
         "product_code": "FBD216",
         "width_mm": 1600,
         "depth_mm": 833,
-        "height_mm": 720
+        "height_mm": 720,
+        "leg_type": "단면형"
+      },
+      {
+        "product_code": "FBD224",
+        "width_mm": 1400,
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "양면형"
+      },
+      {
+        "product_code": "FBD226",
+        "width_mm": 1600,
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "양면형"
       }
     ],
     "notes": [
       "※ 단면형"
     ],
     "source": {
+      "excel": "엑셀 분류표.xlsx",
       "pptx": "_읽기전용_DESKS_CHANCE.pptx",
       "slides_used": [
         1,
@@ -63,6 +84,5037 @@
         3
       ]
     },
-    "updated_at": "2026-08-19T18:24:52"
+    "updated_at": "2026-08-19T18:24:52",
+    "space_category": "업무공간"
+  },
+  "FND": {
+    "product_code": "FND",
+    "series": "FlowFinder",
+    "product_name": "일반형 데스크 (사다리형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FND712CB",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND712CBM",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND714CB",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND714CBM",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND716CB",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND716CBM",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND718CB",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND718CBM",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND812CB",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND812CBM",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND814CB",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND814CBM",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND816CB",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND816CBM",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND818CB",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND818CBM",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWDSG",
+        "top_color": "WW",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYWW",
+        "top_color": "OCY",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYDSG",
+        "top_color": "OCY",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWKBKM",
+        "top_color": "WWK",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "HWBKM",
+        "top_color": "HW",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW/WWDSG/OCYWW/OCYDSG/WWKBKM/HWBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FND_2": {
+    "product_code": "FND_2",
+    "series": "FlowFinder",
+    "product_name": "일반형 데스크 (A형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FND712CRA",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND712CRAM",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND714CRA",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND714CRAM",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND716CRA",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND716CRAM",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND718CRA",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND718CRAM",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND812CRA",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND812CRAM",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND814CRA",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND814CRAM",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND816CRA",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND816CRAM",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND818CRA",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND818CRAM",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWDSG",
+        "top_color": "WW",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYWW",
+        "top_color": "OCY",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYDSG",
+        "top_color": "OCY",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWKBKM",
+        "top_color": "WWK",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "HWBKM",
+        "top_color": "HW",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW/WWDSG/OCYWW/OCYDSG/WWKBKM/HWBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FND_3": {
+    "product_code": "FND_3",
+    "series": "FlowFinder",
+    "product_name": "일반형 데스크 (원형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FND712CR",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND712CRM",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND714CR",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND714CRM",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND716CR",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND716CRM",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND718CR",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND718CRM",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND812CR",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND812CRM",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND814CR",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND814CRM",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND816CR",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND816CRM",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND818CR",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND818CRM",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWDSG",
+        "top_color": "WW",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYWW",
+        "top_color": "OCY",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYDSG",
+        "top_color": "OCY",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWKBKM",
+        "top_color": "WWK",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "HWBKM",
+        "top_color": "HW",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW/WWDSG/OCYWW/OCYDSG/WWKBKM/HWBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FND_4": {
+    "product_code": "FND_4",
+    "series": "FlowFinder",
+    "product_name": "덕트형 데스크 (사다리형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FND712B",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND712BM",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND714B",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND714BM",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND716B",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND716BM",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND718B",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND718BM",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND812B",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND812BM",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND814B",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND814BM",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND816B",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND816BM",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND818B",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND818BM",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWDSG",
+        "top_color": "WW",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYWW",
+        "top_color": "OCY",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYDSG",
+        "top_color": "OCY",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWKBKM",
+        "top_color": "WWK",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "HWBKM",
+        "top_color": "HW",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW/WWDSG/OCYWW/OCYDSG/WWKBKM/HWBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FND_5": {
+    "product_code": "FND_5",
+    "series": "FlowFinder",
+    "product_name": "덕트형 데스크 (A형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FND712RA",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND712RAM",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND714RA",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND714RAM",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND716RA",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND716RAM",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND718RA",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND718RAM",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND812RA",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND812RAM",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND814RA",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND814RAM",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND816RA",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND816RAM",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND818RA",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND818RAM",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWDSG",
+        "top_color": "WW",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYWW",
+        "top_color": "OCY",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYDSG",
+        "top_color": "OCY",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWKBKM",
+        "top_color": "WWK",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "HWBKM",
+        "top_color": "HW",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW/WWDSG/OCYWW/OCYDSG/WWKBKM/HWBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FND_6": {
+    "product_code": "FND_6",
+    "series": "FlowFinder",
+    "product_name": "덕트형 데스크 (원형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FND712R",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND712RM",
+        "width_mm": 1200,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND714R",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND714RM",
+        "width_mm": 1400,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND716R",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND716RM",
+        "width_mm": 1600,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND718R",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND718RM",
+        "width_mm": 1800,
+        "depth_mm": 670,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND812R",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND812RM",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND814R",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND814RM",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND816R",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND816RM",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FND818R",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FND818RM",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWDSG",
+        "top_color": "WW",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYWW",
+        "top_color": "OCY",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYDSG",
+        "top_color": "OCY",
+        "leg_color": "DSG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWKBKM",
+        "top_color": "WWK",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "HWBKM",
+        "top_color": "HW",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW/WWDSG/OCYWW/OCYDSG/WWKBKM/HWBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FDD": {
+    "product_code": "FDD",
+    "series": "ENABLE (인에이블)",
+    "product_name": "일반형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FDD012CN",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD014CN",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD016CN",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD018CN",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD012CMN",
+        "width_mm": 1200,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FDD014CMN",
+        "width_mm": 1400,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FDD016CMN",
+        "width_mm": 1600,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FDD018CMN",
+        "width_mm": 1800,
+        "depth_mm": 770,
+        "height_mm": 720,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "KAP",
+        "top_color": "KAP",
+        "leg_color": "KAP",
+        "top_color_image": "images/materials/KAP.jpg",
+        "leg_color_image": "images/materials/KAP.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW(WW다리)",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "OHNBK(BKM다리)",
+        "top_color": "OHN",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "KAP / WW(WW다리) / OHNBK(BKM다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FDD_2": {
+    "product_code": "FDD_2",
+    "series": "ENABLE MOTION DESK (인에이블 모션데스크)",
+    "product_name": "모션데스크(이지탭)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FDD014JNNA",
+        "width_mm": 1390,
+        "depth_mm": 770,
+        "height_mm": "650~1170(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD016JNNA",
+        "width_mm": 1590,
+        "depth_mm": 770,
+        "height_mm": "650~1170(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD018JNNA",
+        "width_mm": 1790,
+        "depth_mm": 770,
+        "height_mm": "650~1170(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FDD014JMNNA",
+        "width_mm": 1390,
+        "depth_mm": 770,
+        "height_mm": "675~1195(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FDD016JMNNA",
+        "width_mm": 1590,
+        "depth_mm": 770,
+        "height_mm": "675~1195(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FDD018JMNNA",
+        "width_mm": 1790,
+        "depth_mm": 770,
+        "height_mm": "675~1195(가변)",
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "KAP",
+        "top_color": "KAP",
+        "leg_color": "KAP",
+        "top_color_image": "images/materials/KAP.jpg",
+        "leg_color_image": "images/materials/KAP.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "LL",
+        "top_color": "LL",
+        "leg_color": "LL",
+        "top_color_image": "images/materials/LL.jpg",
+        "leg_color_image": "images/materials/LL.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "FIV",
+        "top_color": "FIV",
+        "leg_color": "FIV",
+        "top_color_image": "images/materials/FIV.jpg",
+        "leg_color_image": "images/materials/FIV.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "CC",
+        "top_color": "CC",
+        "leg_color": "CC",
+        "top_color_image": "images/materials/CC.jpg",
+        "leg_color_image": "images/materials/CC.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW(PW다리)",
+        "top_color": "WW",
+        "leg_color": "PW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "LDBK(BK다리)",
+        "top_color": "LD",
+        "leg_color": "BK",
+        "top_color_image": "images/materials/LD.jpg",
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "KAP / LL / FIV / CC / WW(PW다리) / LDBK(BK다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FHD": {
+    "product_code": "FHD",
+    "series": "M302 MOTION DESK",
+    "product_name": "모션데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FHD012",
+        "width_mm": 1200,
+        "depth_mm": 700,
+        "height_mm": "680(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FHD014",
+        "width_mm": 1400,
+        "depth_mm": 700,
+        "height_mm": "680(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FHD016",
+        "width_mm": 1600,
+        "depth_mm": 700,
+        "height_mm": "680(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FHD018",
+        "width_mm": 1800,
+        "depth_mm": 700,
+        "height_mm": "680(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FHD012M",
+        "width_mm": 1200,
+        "depth_mm": 700,
+        "height_mm": "707(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FHD014M",
+        "width_mm": 1400,
+        "depth_mm": 700,
+        "height_mm": "707(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FHD016M",
+        "width_mm": 1600,
+        "depth_mm": 700,
+        "height_mm": "707(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FHD018M",
+        "width_mm": 1800,
+        "depth_mm": 700,
+        "height_mm": "707(가변)",
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "RCNPW",
+        "top_color": "RCN",
+        "leg_color": "PW",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "RCNWW(PW다리)",
+        "top_color": "RCN",
+        "leg_color": "PW",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "RCNBK",
+        "top_color": "RCN",
+        "leg_color": "BK",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "NBKBK",
+        "top_color": "NBK",
+        "leg_color": "BK",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "NBKOHN(BK다리)",
+        "top_color": "NBK",
+        "leg_color": "BK",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "WW / RCNPW / RCNWW(PW다리) / RCNBK / NBKBK / NBKOHN(BK다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FKD": {
+    "product_code": "FKD",
+    "series": "M302+ MOTION DESK",
+    "product_name": "모션데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FKD014N",
+        "width_mm": 1390,
+        "depth_mm": 770,
+        "height_mm": "680~1145(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FKD016N",
+        "width_mm": 1590,
+        "depth_mm": 770,
+        "height_mm": "680~1145(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FKD018N",
+        "width_mm": 1790,
+        "depth_mm": 770,
+        "height_mm": "680~1145(가변)",
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FKD014MN",
+        "width_mm": 1390,
+        "depth_mm": 770,
+        "height_mm": "709~1174(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FKD016MN",
+        "width_mm": 1590,
+        "depth_mm": 770,
+        "height_mm": "709~1174(가변)",
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FKD018MN",
+        "width_mm": 1790,
+        "depth_mm": 770,
+        "height_mm": "709~1174(가변)",
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWPW",
+        "top_color": "WW",
+        "leg_color": "PW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "RCNPW(PW다리)",
+        "top_color": "RCN",
+        "leg_color": "PW",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "RCNBK(BK다리)",
+        "top_color": "RCN",
+        "leg_color": "BK",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "WWPW / RCNPW(PW다리) / RCNBK(BK다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FMD": {
+    "product_code": "FMD",
+    "series": "M703+ MOTION DESK",
+    "product_name": "모션데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FMD016",
+        "width_mm": 1614,
+        "depth_mm": 828,
+        "height_mm": 577,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FMD018",
+        "width_mm": 1814,
+        "depth_mm": 828,
+        "height_mm": 577,
+        "leg_type": "글라이드"
+      },
+      {
+        "product_code": "FMD014M",
+        "width_mm": 1414,
+        "depth_mm": 828,
+        "height_mm": 603,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FMD016M",
+        "width_mm": 1614,
+        "depth_mm": 828,
+        "height_mm": 603,
+        "leg_type": "캐스터형"
+      },
+      {
+        "product_code": "FMD018M",
+        "width_mm": 1814,
+        "depth_mm": 828,
+        "height_mm": 603,
+        "leg_type": "캐스터형"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWPW",
+        "top_color": "WW",
+        "leg_color": "PW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "OCYPW(PW다리)",
+        "top_color": "OCY",
+        "leg_color": "PW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "FKBK(BKBK다리)",
+        "top_color": "FK",
+        "leg_color": "BKBK",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "WWPW / OCYPW(PW다리) / FKBK(BKBK다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FGD": {
+    "product_code": "FGD",
+    "series": "WEYARD (위야드)",
+    "product_name": "워크 테이블(6인)",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FGD238",
+        "width_mm": 3800,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명없음(1인폭1200)"
+      },
+      {
+        "product_code": "FGD444",
+        "width_mm": 4400,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명없음(1인폭1400)"
+      },
+      {
+        "product_code": "FGD650",
+        "width_mm": 5000,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명없음(1인폭1600)"
+      },
+      {
+        "product_code": "FGD444K",
+        "width_mm": 4400,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명포함(1인폭1400)"
+      },
+      {
+        "product_code": "FGD650K",
+        "width_mm": 5000,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명포함(1인폭1600)"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWONA",
+        "top_color": "WW",
+        "leg_color": "ONA",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "RCNBKM",
+        "top_color": "RCN",
+        "leg_color": "BKM",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW / WWONA / RCNBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FGD_2": {
+    "product_code": "FGD_2",
+    "series": "WEYARD (위야드)",
+    "product_name": "워크 테이블(8인)",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FGD250",
+        "width_mm": 5500,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명없음(1인폭1200)"
+      },
+      {
+        "product_code": "FGD458",
+        "width_mm": 5800,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명없음(1인폭1400)"
+      },
+      {
+        "product_code": "FGD666",
+        "width_mm": 6600,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명없음(1인폭1600)"
+      },
+      {
+        "product_code": "FGD458K",
+        "width_mm": 5800,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명포함(1인폭1400)"
+      },
+      {
+        "product_code": "FGD666K",
+        "width_mm": 6600,
+        "depth_mm": 1500,
+        "height_mm": 720,
+        "leg_type": "조명포함(1인폭1600)"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WWWW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "WWONA",
+        "top_color": "WW",
+        "leg_color": "ONA",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "RCNBKM",
+        "top_color": "RCN",
+        "leg_color": "BKM",
+        "top_color_image": "images/materials/RCN.jpg",
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "WWWW / WWONA / RCNBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FJD": {
+    "product_code": "FJD",
+    "series": "WEYARD (위야드)",
+    "product_name": "라운지 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FJD036P",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "2T 테이퍼드엣지"
+      },
+      {
+        "product_code": "FJD036SK",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "2T 테이퍼드엣지+하프조명"
+      },
+      {
+        "product_code": "FJD036PK",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "2T 테이퍼드엣지+낮은조명"
+      },
+      {
+        "product_code": "FJD036FP",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 729,
+        "leg_type": "3T 평엣지"
+      },
+      {
+        "product_code": "FJD036FSK",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 729,
+        "leg_type": "3T 평엣지+하프조명"
+      },
+      {
+        "product_code": "FJD036FPK",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 729,
+        "leg_type": "3T 평엣지+낮은조명"
+      },
+      {
+        "product_code": "FJD048P",
+        "width_mm": 4800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "2T 테이퍼드엣지"
+      },
+      {
+        "product_code": "FJD048SK",
+        "width_mm": 4800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "2T 테이퍼드엣지+하프조명"
+      },
+      {
+        "product_code": "FJD048PK",
+        "width_mm": 4800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "2T 테이퍼드엣지+낮은조명"
+      },
+      {
+        "product_code": "FJD048FP",
+        "width_mm": 4800,
+        "depth_mm": 1200,
+        "height_mm": 729,
+        "leg_type": "3T 평엣지"
+      },
+      {
+        "product_code": "FJD048FSK",
+        "width_mm": 4800,
+        "depth_mm": 1200,
+        "height_mm": 729,
+        "leg_type": "3T 평엣지+하프조명"
+      },
+      {
+        "product_code": "FJD048FPK",
+        "width_mm": 4800,
+        "depth_mm": 1200,
+        "height_mm": 729,
+        "leg_type": "3T 평엣지+낮은조명"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NSSDCR",
+        "top_color": "NSSDCR",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      },
+      {
+        "code": "NSSWW",
+        "top_color": "NSS",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      },
+      {
+        "code": "CGYBKM",
+        "top_color": "CGY",
+        "leg_color": "BKM",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "NSSDCR / NSSWW / CGYBKM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FAD": {
+    "product_code": "FAD",
+    "series": "FX-1 (에프엑스원)",
+    "product_name": "일반형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FAD012O",
+        "width_mm": 1200,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "FAD014O",
+        "width_mm": 1400,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "FAD016O",
+        "width_mm": 1600,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "FAD018O",
+        "width_mm": 1800,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "UA",
+        "top_color": "UA",
+        "leg_color": "UA",
+        "top_color_image": "images/materials/UA.jpg",
+        "leg_color_image": "images/materials/UA.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW(TS다리)",
+        "top_color": "WW",
+        "leg_color": "TS",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "UAW",
+        "top_color": "UAW",
+        "leg_color": "UAW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "WWW(WW다리)",
+        "top_color": "W",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "UA / WW(TS다리) / UAW / WWW(WW다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FAD_2": {
+    "product_code": "FAD_2",
+    "series": "FX-1 (에프엑스원)",
+    "product_name": "120°형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FAD588O",
+        "width_mm": "2042×1192",
+        "depth_mm": 1192,
+        "height_mm": 720,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW(TS다리)",
+        "top_color": "WW",
+        "leg_color": "TS",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "WWW(WW다리)",
+        "top_color": "W",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "WW(TS다리) / WWW(WW다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FAD_3": {
+    "product_code": "FAD_3",
+    "series": "FX-1 (에프엑스원)",
+    "product_name": "편수형 데스크(PC장)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FAD016C LO",
+        "width_mm": 1600,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "FAD016C RO",
+        "width_mm": 1600,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "R"
+      },
+      {
+        "product_code": "FAD018C LO",
+        "width_mm": 1800,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "FAD018C RO",
+        "width_mm": 1800,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "UA",
+        "top_color": "UA",
+        "leg_color": "UA",
+        "top_color_image": "images/materials/UA.jpg",
+        "leg_color_image": "images/materials/UA.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW(TS다리)",
+        "top_color": "WW",
+        "leg_color": "TS",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "UAW",
+        "top_color": "UAW",
+        "leg_color": "UAW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "WWW(WW다리)",
+        "top_color": "W",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "UA / WW(TS다리) / UAW / WWW(WW다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FAD_4": {
+    "product_code": "FAD_4",
+    "series": "FX-1 (에프엑스원)",
+    "product_name": "편수형 데스크(2단장)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FAD016U LO",
+        "width_mm": 1600,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "FAD016U RO",
+        "width_mm": 1600,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "R"
+      },
+      {
+        "product_code": "FAD018U LO",
+        "width_mm": 1800,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "FAD018U RO",
+        "width_mm": 1800,
+        "depth_mm": 785,
+        "height_mm": 720,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "UA",
+        "top_color": "UA",
+        "leg_color": "UA",
+        "top_color_image": "images/materials/UA.jpg",
+        "leg_color_image": "images/materials/UA.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW(TS다리)",
+        "top_color": "WW",
+        "leg_color": "TS",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      },
+      {
+        "code": "UAW",
+        "top_color": "UAW",
+        "leg_color": "UAW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "WWW(WW다리)",
+        "top_color": "W",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "annotated"
+      }
+    ],
+    "color_raw_group": "UA / WW(TS다리) / UAW / WWW(WW다리)",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "GDN": {
+    "product_code": "GDN",
+    "series": "EXPACE (엑스페이스)",
+    "product_name": "일반형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "GDN012MO",
+        "width_mm": 1200,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "캐스터+가림판"
+      },
+      {
+        "product_code": "GDN012AMO",
+        "width_mm": 1200,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "글라이더+가림판"
+      },
+      {
+        "product_code": "GDN012O",
+        "width_mm": 1200,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "캐스터"
+      },
+      {
+        "product_code": "GDN012AO",
+        "width_mm": 1200,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "글라이더"
+      },
+      {
+        "product_code": "GDN014MO",
+        "width_mm": 1400,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "캐스터+가림판"
+      },
+      {
+        "product_code": "GDN014AMO",
+        "width_mm": 1400,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "글라이더+가림판"
+      },
+      {
+        "product_code": "GDN014O",
+        "width_mm": 1400,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "캐스터"
+      },
+      {
+        "product_code": "GDN014AO",
+        "width_mm": 1400,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "글라이더"
+      },
+      {
+        "product_code": "GDN016MO",
+        "width_mm": 1600,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "캐스터+가림판"
+      },
+      {
+        "product_code": "GDN016AMO",
+        "width_mm": 1600,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "글라이더+가림판"
+      },
+      {
+        "product_code": "GDN016O",
+        "width_mm": 1600,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "캐스터"
+      },
+      {
+        "product_code": "GDN016AO",
+        "width_mm": 1600,
+        "depth_mm": 750,
+        "height_mm": 720,
+        "leg_type": "글라이더"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "GRN": {
+    "product_code": "GRN",
+    "series": "EXPACE (엑스페이스)",
+    "product_name": "원형 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "GRN009O",
+        "width_mm": "지름900",
+        "depth_mm": "-",
+        "height_mm": 720,
+        "leg_type": "캐스터"
+      },
+      {
+        "product_code": "GRN009AO",
+        "width_mm": "지름900",
+        "depth_mm": "-",
+        "height_mm": 720,
+        "leg_type": "글라이더"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FBD_2": {
+    "product_code": "FBD_2",
+    "series": "CHANCE (챈스)",
+    "product_name": "연결형 데스크(단면)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FBD214S",
+        "width_mm": 1462,
+        "depth_mm": 833,
+        "height_mm": 720,
+        "leg_type": "스타터"
+      },
+      {
+        "product_code": "FBD214A",
+        "width_mm": "1400/1600",
+        "depth_mm": 833,
+        "height_mm": 720,
+        "leg_type": "애더"
+      },
+      {
+        "product_code": "FBD214E",
+        "width_mm": "1400/1600",
+        "depth_mm": 833,
+        "height_mm": 720,
+        "leg_type": "엔더"
+      },
+      {
+        "product_code": "FBD216S",
+        "width_mm": 1662,
+        "depth_mm": 833,
+        "height_mm": 720,
+        "leg_type": "스타터"
+      },
+      {
+        "product_code": "FBD216A",
+        "width_mm": "1400/1600",
+        "depth_mm": 833,
+        "height_mm": 720,
+        "leg_type": "애더"
+      },
+      {
+        "product_code": "FBD216E",
+        "width_mm": "1400/1600",
+        "depth_mm": 833,
+        "height_mm": 720,
+        "leg_type": "엔더"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FBD_3": {
+    "product_code": "FBD_3",
+    "series": "CHANCE (챈스)",
+    "product_name": "연결형 데스크(양면)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "FBD224S",
+        "width_mm": 1462,
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "스타터"
+      },
+      {
+        "product_code": "FBD224A",
+        "width_mm": "1400/1600",
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "애더"
+      },
+      {
+        "product_code": "FBD224E",
+        "width_mm": "1400/1600",
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "엔더"
+      },
+      {
+        "product_code": "FBD226S",
+        "width_mm": 1662,
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "스타터"
+      },
+      {
+        "product_code": "FBD226A",
+        "width_mm": "1400/1600",
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "애더"
+      },
+      {
+        "product_code": "FBD226E",
+        "width_mm": "1400/1600",
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "엔더"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "DDT": {
+    "product_code": "DDT",
+    "series": "DELIGHT (딜라이트)",
+    "product_name": "일반형 데스크(측판형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "DDT112S",
+        "width_mm": 1200,
+        "depth_mm": 700,
+        "height_mm": 721,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "DDT114S",
+        "width_mm": 1400,
+        "depth_mm": 700,
+        "height_mm": 721,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "DDT116S",
+        "width_mm": 1600,
+        "depth_mm": 700,
+        "height_mm": 721,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "LW(LL·WW)",
+        "top_color": "LW(LL·WW)",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      },
+      {
+        "code": "FIV",
+        "top_color": "FIV",
+        "leg_color": "FIV",
+        "top_color_image": "images/materials/FIV.jpg",
+        "leg_color_image": "images/materials/FIV.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "CC",
+        "top_color": "CC",
+        "leg_color": "CC",
+        "top_color_image": "images/materials/CC.jpg",
+        "leg_color_image": "images/materials/CC.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "LW(LL·WW) / FIV / WW / CC",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "SD": {
+    "product_code": "SD",
+    "series": "DELIGHT (딜라이트)",
+    "product_name": "일반형 데스크(ㄷ자다리형)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "SD012S",
+        "width_mm": 1200,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "SD014S",
+        "width_mm": 1400,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "SD016S",
+        "width_mm": 1600,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "LL",
+        "top_color": "LL",
+        "leg_color": "LL",
+        "top_color_image": "images/materials/LL.jpg",
+        "leg_color_image": "images/materials/LL.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "FIV",
+        "top_color": "FIV",
+        "leg_color": "FIV",
+        "top_color_image": "images/materials/FIV.jpg",
+        "leg_color_image": "images/materials/FIV.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "CC",
+        "top_color": "CC",
+        "leg_color": "CC",
+        "top_color_image": "images/materials/CC.jpg",
+        "leg_color_image": "images/materials/CC.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "LL / FIV / WW / CC",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "SD_2": {
+    "product_code": "SD_2",
+    "series": "DELIGHT (딜라이트)",
+    "product_name": "L형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "SD314S L",
+        "width_mm": 1400,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD314S R",
+        "width_mm": 1400,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "R"
+      },
+      {
+        "product_code": "SD316S L",
+        "width_mm": 1600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD316S R",
+        "width_mm": 1600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "LL",
+        "top_color": "LL",
+        "leg_color": "LL",
+        "top_color_image": "images/materials/LL.jpg",
+        "leg_color_image": "images/materials/LL.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "FIV",
+        "top_color": "FIV",
+        "leg_color": "FIV",
+        "top_color_image": "images/materials/FIV.jpg",
+        "leg_color_image": "images/materials/FIV.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "CC",
+        "top_color": "CC",
+        "leg_color": "CC",
+        "top_color_image": "images/materials/CC.jpg",
+        "leg_color_image": "images/materials/CC.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "LL / FIV / WW / CC",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "SD_3": {
+    "product_code": "SD_3",
+    "series": "PUZZLE PLUS (퍼즐플러스)",
+    "product_name": "일반형 데스크(직선형 상판)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "SD008",
+        "width_mm": 800,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "SD012",
+        "width_mm": 1200,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "SD014",
+        "width_mm": 1400,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "SD016",
+        "width_mm": 1600,
+        "depth_mm": 700,
+        "height_mm": 720,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "BE",
+        "top_color": "BE",
+        "leg_color": "BE",
+        "top_color_image": "images/materials/BE.jpg",
+        "leg_color_image": "images/materials/BE.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "MG",
+        "top_color": "MG",
+        "leg_color": "MG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "BE / MG",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "SD_4": {
+    "product_code": "SD_4",
+    "series": "PUZZLE PLUS (퍼즐플러스)",
+    "product_name": "L형 데스크(사이드장D470)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "SD316 L",
+        "width_mm": 1600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD316 R",
+        "width_mm": 1600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "R"
+      },
+      {
+        "product_code": "SD318 L",
+        "width_mm": 1800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD318 R",
+        "width_mm": 1800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "BE",
+        "top_color": "BE",
+        "leg_color": "BE",
+        "top_color_image": "images/materials/BE.jpg",
+        "leg_color_image": "images/materials/BE.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "MG",
+        "top_color": "MG",
+        "leg_color": "MG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "BE / MG",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "SD_5": {
+    "product_code": "SD_5",
+    "series": "PUZZLE PLUS (퍼즐플러스)",
+    "product_name": "L형 데스크(돌유닛D600)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "SD362 L",
+        "width_mm": 1600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD362 R",
+        "width_mm": 1600,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "R"
+      },
+      {
+        "product_code": "SD382 L",
+        "width_mm": 1800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD382 R",
+        "width_mm": 1800,
+        "depth_mm": 1200,
+        "height_mm": 720,
+        "leg_type": "R"
+      },
+      {
+        "product_code": "SD366 L",
+        "width_mm": 1600,
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "SD366 R",
+        "width_mm": 1600,
+        "depth_mm": 1600,
+        "height_mm": 720,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "BE",
+        "top_color": "BE",
+        "leg_color": "BE",
+        "top_color_image": "images/materials/BE.jpg",
+        "leg_color_image": "images/materials/BE.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "MG",
+        "top_color": "MG",
+        "leg_color": "MG",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "BE / MG",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "DDT_2": {
+    "product_code": "DDT_2",
+    "series": "SUPERTECH (수퍼테크)",
+    "product_name": "일반형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "DDT012",
+        "width_mm": 1200,
+        "depth_mm": 800,
+        "height_mm": 721,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "DDT014",
+        "width_mm": 1400,
+        "depth_mm": 800,
+        "height_mm": 721,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "DDT016",
+        "width_mm": 1600,
+        "depth_mm": 800,
+        "height_mm": 721,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "DDT018",
+        "width_mm": 1800,
+        "depth_mm": 800,
+        "height_mm": 721,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "LT",
+        "top_color": "LT",
+        "leg_color": "LT",
+        "top_color_image": "images/materials/LT.jpg",
+        "leg_color_image": "images/materials/LT.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "LT / WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDL": {
+    "product_code": "ZDL",
+    "series": "MARCUS (마커스)",
+    "product_name": "양수형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDL036G RN",
+        "width_mm": 3600,
+        "depth_mm": 1880,
+        "height_mm": 742,
+        "leg_type": "RN"
+      },
+      {
+        "product_code": "ZDL026 LN",
+        "width_mm": 2700,
+        "depth_mm": 1874,
+        "height_mm": 742,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDL026 RN",
+        "width_mm": 2700,
+        "depth_mm": 1874,
+        "height_mm": 742,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "DBL",
+        "top_color": "DBL",
+        "leg_color": "DBL",
+        "top_color_image": "images/materials/DBL.jpg",
+        "leg_color_image": "images/materials/DBL.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "DBL",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZRL": {
+    "product_code": "ZRL",
+    "series": "MARCUS (마커스)",
+    "product_name": "회의 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZRL026N",
+        "width_mm": 2600,
+        "depth_mm": 1200,
+        "height_mm": 742,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "ZRL034N",
+        "width_mm": 3400,
+        "depth_mm": 1200,
+        "height_mm": 742,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "DBL",
+        "top_color": "DBL",
+        "leg_color": "DBL",
+        "top_color_image": "images/materials/DBL.jpg",
+        "leg_color_image": "images/materials/DBL.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "DBL",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDD": {
+    "product_code": "ZDD",
+    "series": "CEOS (씨오스)",
+    "product_name": "일반형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDD021N",
+        "width_mm": 2100,
+        "depth_mm": 1050,
+        "height_mm": 740,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NCE",
+        "top_color": "NCE",
+        "leg_color": "NCE",
+        "top_color_image": "images/materials/NCE.jpg",
+        "leg_color_image": "images/materials/NCE.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "NCE",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDD_2": {
+    "product_code": "ZDD_2",
+    "series": "CEOS (씨오스)",
+    "product_name": "사이드 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDD414 LN",
+        "width_mm": 1400,
+        "depth_mm": 600,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDD414 RN",
+        "width_mm": 1400,
+        "depth_mm": 600,
+        "height_mm": 740,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NCE",
+        "top_color": "NCE",
+        "leg_color": "NCE",
+        "top_color_image": "images/materials/NCE.jpg",
+        "leg_color_image": "images/materials/NCE.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "NCE",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZRD": {
+    "product_code": "ZRD",
+    "series": "CEOS (씨오스)",
+    "product_name": "회의 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZRD024N",
+        "width_mm": 2400,
+        "depth_mm": 1200,
+        "height_mm": 740,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "ZRD036N",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 740,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NCE",
+        "top_color": "NCE",
+        "leg_color": "NCE",
+        "top_color_image": "images/materials/NCE.jpg",
+        "leg_color_image": "images/materials/NCE.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "NCE",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDI": {
+    "product_code": "ZDI",
+    "series": "INCONTRO (인콘트로)",
+    "product_name": "일자형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDI020N",
+        "width_mm": 2000,
+        "depth_mm": 900,
+        "height_mm": 741,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "OGG",
+        "top_color": "OGG",
+        "leg_color": "OGG",
+        "top_color_image": "images/materials/OGG.jpg",
+        "leg_color_image": "images/materials/OGG.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "OGG",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDI_2": {
+    "product_code": "ZDI_2",
+    "series": "INCONTRO (인콘트로)",
+    "product_name": "L형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDI320LN",
+        "width_mm": 2000,
+        "depth_mm": 1895,
+        "height_mm": 741,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDI320RN",
+        "width_mm": 2000,
+        "depth_mm": 1895,
+        "height_mm": 741,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "OGG",
+        "top_color": "OGG",
+        "leg_color": "OGG",
+        "top_color_image": "images/materials/OGG.jpg",
+        "leg_color_image": "images/materials/OGG.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "OGG",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZRI": {
+    "product_code": "ZRI",
+    "series": "INCONTRO (인콘트로)",
+    "product_name": "회의 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZRI024N",
+        "width_mm": 2400,
+        "depth_mm": 1100,
+        "height_mm": 742,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "OGG",
+        "top_color": "OGG",
+        "leg_color": "OGG",
+        "top_color_image": "images/materials/OGG.jpg",
+        "leg_color_image": "images/materials/OGG.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "OGG",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDQ": {
+    "product_code": "ZDQ",
+    "series": "MONARCH (모나크)",
+    "product_name": "일자형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDQ020N",
+        "width_mm": 1999,
+        "depth_mm": 950,
+        "height_mm": 740,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NMOK",
+        "top_color": "NMOK",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      }
+    ],
+    "color_raw_group": "NMOK",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDQ_2": {
+    "product_code": "ZDQ_2",
+    "series": "MONARCH (모나크)",
+    "product_name": "편수형 데스크(PC장)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDQ020C LN",
+        "width_mm": 1991,
+        "depth_mm": 950,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDQ020C RN",
+        "width_mm": 1991,
+        "depth_mm": 950,
+        "height_mm": 740,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NMOK",
+        "top_color": "NMOK",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      }
+    ],
+    "color_raw_group": "NMOK",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDQ_3": {
+    "product_code": "ZDQ_3",
+    "series": "MONARCH (모나크)",
+    "product_name": "편수형 데스크(수납장)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDQ020U LN",
+        "width_mm": 1991,
+        "depth_mm": 950,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDQ020U RN",
+        "width_mm": 1991,
+        "depth_mm": 950,
+        "height_mm": 740,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NMOK",
+        "top_color": "NMOK",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      }
+    ],
+    "color_raw_group": "NMOK",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDQ_4": {
+    "product_code": "ZDQ_4",
+    "series": "MONARCH (모나크)",
+    "product_name": "모션 사이드 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDQ012J",
+        "width_mm": 1172,
+        "depth_mm": 590,
+        "height_mm": "670~1170(가변)",
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NMOK",
+        "top_color": "NMOK",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      }
+    ],
+    "color_raw_group": "NMOK",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZRQ": {
+    "product_code": "ZRQ",
+    "series": "MONARCH (모나크)",
+    "product_name": "회의 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZRQ024AN",
+        "width_mm": 2400,
+        "depth_mm": 1200,
+        "height_mm": 740,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "ZRQ036AN",
+        "width_mm": 3600,
+        "depth_mm": 1200,
+        "height_mm": 740,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "NMOK",
+        "top_color": "NMOK",
+        "leg_color": null,
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "unresolved"
+      }
+    ],
+    "color_raw_group": "NMOK",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDS": {
+    "product_code": "ZDS",
+    "series": "SETINA (세티나)",
+    "product_name": "일자형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDS018VN",
+        "width_mm": 1800,
+        "depth_mm": 900,
+        "height_mm": 740,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "ZDS020VN",
+        "width_mm": 2000,
+        "depth_mm": 900,
+        "height_mm": 740,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "OB",
+        "top_color": "OB",
+        "leg_color": "OB",
+        "top_color_image": "images/materials/OB_OBL_MOB.jpg",
+        "leg_color_image": "images/materials/OB_OBL_MOB.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WP",
+        "top_color": "WP",
+        "leg_color": "WP",
+        "top_color_image": "images/materials/WP.jpg",
+        "leg_color_image": "images/materials/WP.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "OB / WP / WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDS_2": {
+    "product_code": "ZDS_2",
+    "series": "SETINA (세티나)",
+    "product_name": "L형 데스크(하부수납장)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDS318U LN",
+        "width_mm": 1800,
+        "depth_mm": 2000,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDS318U RN",
+        "width_mm": 1800,
+        "depth_mm": 2000,
+        "height_mm": 740,
+        "leg_type": "RN"
+      },
+      {
+        "product_code": "ZDS320U LN",
+        "width_mm": 2000,
+        "depth_mm": 2000,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDS320U RN",
+        "width_mm": 2000,
+        "depth_mm": 2000,
+        "height_mm": 740,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "MOB",
+        "top_color": "MOB",
+        "leg_color": "MOB",
+        "top_color_image": "images/materials/OB_OBL_MOB.jpg",
+        "leg_color_image": "images/materials/OB_OBL_MOB.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WP",
+        "top_color": "WP",
+        "leg_color": "WP",
+        "top_color_image": "images/materials/WP.jpg",
+        "leg_color_image": "images/materials/WP.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "MOB / WP / WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDN": {
+    "product_code": "ZDN",
+    "series": "TIERRA (티에라)",
+    "product_name": "편수형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDN018 LN",
+        "width_mm": 1800,
+        "depth_mm": 804,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDN018 RN",
+        "width_mm": 1800,
+        "depth_mm": 804,
+        "height_mm": 740,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "HW",
+        "top_color": "HW",
+        "leg_color": "HW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "TLWW",
+        "top_color": "TL",
+        "leg_color": "WW",
+        "top_color_image": "images/materials/TL.jpg",
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "HW / TLWW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDN_2": {
+    "product_code": "ZDN_2",
+    "series": "TIERRA (티에라)",
+    "product_name": "L형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDN318 LN",
+        "width_mm": 1750,
+        "depth_mm": 2004,
+        "height_mm": 740,
+        "leg_type": "LN"
+      },
+      {
+        "product_code": "ZDN318 RN",
+        "width_mm": 1750,
+        "depth_mm": 2004,
+        "height_mm": 740,
+        "leg_type": "RN"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "HW",
+        "top_color": "HW",
+        "leg_color": "HW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "TLWW",
+        "top_color": "TL",
+        "leg_color": "WW",
+        "top_color_image": "images/materials/TL.jpg",
+        "leg_color_image": null,
+        "confidence": "suffix-match"
+      }
+    ],
+    "color_raw_group": "HW / TLWW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDU": {
+    "product_code": "ZDU",
+    "series": "PRESIDENT (프레지던트)",
+    "product_name": "일자형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDU020",
+        "width_mm": 2000,
+        "depth_mm": 1000,
+        "height_mm": 741,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "IO",
+        "top_color": "IO",
+        "leg_color": "IO",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "IO",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDU_2": {
+    "product_code": "ZDU_2",
+    "series": "PRESIDENT (프레지던트)",
+    "product_name": "L형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDU320 L",
+        "width_mm": 2000,
+        "depth_mm": 2197,
+        "height_mm": 741,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "ZDU320 R",
+        "width_mm": 2000,
+        "depth_mm": 2197,
+        "height_mm": 741,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "IO",
+        "top_color": "IO",
+        "leg_color": "IO",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "IO",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZRU": {
+    "product_code": "ZRU",
+    "series": "PRESIDENT (프레지던트)",
+    "product_name": "회의 테이블",
+    "category": "테이블",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZRU020A",
+        "width_mm": 2000,
+        "depth_mm": 1000,
+        "height_mm": 741,
+        "leg_type": "덕트있음"
+      },
+      {
+        "product_code": "ZRU020",
+        "width_mm": 2000,
+        "depth_mm": 1000,
+        "height_mm": 741,
+        "leg_type": "덕트없음"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "IO",
+        "top_color": "IO",
+        "leg_color": "IO",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "IO",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDE": {
+    "product_code": "ZDE",
+    "series": "MANHATTAN (맨해튼)",
+    "product_name": "일자형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDE018",
+        "width_mm": 1800,
+        "depth_mm": 900,
+        "height_mm": 740,
+        "leg_type": "-"
+      },
+      {
+        "product_code": "ZDE020",
+        "width_mm": 2000,
+        "depth_mm": 900,
+        "height_mm": 740,
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "LD",
+        "top_color": "LD",
+        "leg_color": "LD",
+        "top_color_image": "images/materials/LD.jpg",
+        "leg_color_image": "images/materials/LD.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "UM",
+        "top_color": "UM",
+        "leg_color": "UM",
+        "top_color_image": "images/materials/UM.jpg",
+        "leg_color_image": "images/materials/UM.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "LD / UM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDE_2": {
+    "product_code": "ZDE_2",
+    "series": "MANHATTAN (맨해튼)",
+    "product_name": "L형 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDE320 L",
+        "width_mm": 2000,
+        "depth_mm": 2100,
+        "height_mm": 740,
+        "leg_type": "L"
+      },
+      {
+        "product_code": "ZDE320 R",
+        "width_mm": 2000,
+        "depth_mm": 2100,
+        "height_mm": 740,
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "LD",
+        "top_color": "LD",
+        "leg_color": "LD",
+        "top_color_image": "images/materials/LD.jpg",
+        "leg_color_image": "images/materials/LD.jpg",
+        "confidence": "mono"
+      },
+      {
+        "code": "UM",
+        "top_color": "UM",
+        "leg_color": "UM",
+        "top_color_image": "images/materials/UM.jpg",
+        "leg_color_image": "images/materials/UM.jpg",
+        "confidence": "mono"
+      }
+    ],
+    "color_raw_group": "LD / UM",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "ZDY": {
+    "product_code": "ZDY",
+    "series": "ABIERTO (아비에르토)",
+    "product_name": "모션 데스크(오픈중역)",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "ZDY019J L",
+        "width_mm": 2212,
+        "depth_mm": 2500,
+        "height_mm": "700~1170(가변,오픈장까지1401)",
+        "leg_type": "L"
+      },
+      {
+        "product_code": "ZDY019J R",
+        "width_mm": 2212,
+        "depth_mm": 2500,
+        "height_mm": "700~1170(가변,오픈장까지1401)",
+        "leg_type": "R"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "CAW",
+        "top_color": "CAW",
+        "leg_color": "CAW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "CAW / WW",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "YBD": {
+    "product_code": "YBD",
+    "series": "KAMMER (캄머)",
+    "product_name": "업무용 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "YBD018J",
+        "width_mm": 1790,
+        "depth_mm": 890,
+        "height_mm": "660~1170(가변)",
+        "leg_type": "-"
+      },
+      {
+        "product_code": "YBD020J",
+        "width_mm": 1990,
+        "depth_mm": 890,
+        "height_mm": "660~1170(가변)",
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "OCY",
+        "top_color": "OCY",
+        "leg_color": "OCY",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "WW / OCY",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "YBR": {
+    "product_code": "YBR",
+    "series": "KAMMER (캄머)",
+    "product_name": "회의용 데스크",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "spec_table": [
+      {
+        "product_code": "YBR024J",
+        "width_mm": 2390,
+        "depth_mm": 1090,
+        "height_mm": "660~1170(가변)",
+        "leg_type": "-"
+      }
+    ],
+    "color_options": [
+      {
+        "code": "WW",
+        "top_color": "WW",
+        "leg_color": "WW",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      },
+      {
+        "code": "OCY",
+        "top_color": "OCY",
+        "leg_color": "OCY",
+        "top_color_image": null,
+        "leg_color_image": null,
+        "confidence": "mono-fallback"
+      }
+    ],
+    "color_raw_group": "WW / OCY",
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNF": {
+    "product_code": "FNF",
+    "series": "FlowFinder",
+    "product_name": "일자형 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1186/1386/1586/1786",
+    "color_options": [
+      {
+        "code": "1P1",
+        "color_image": null
+      },
+      {
+        "code": "1P2",
+        "color_image": null
+      },
+      {
+        "code": "1P4A",
+        "color_image": null
+      },
+      {
+        "code": "1P6",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNF_A": {
+    "product_code": "FNF_A",
+    "series": "FlowFinder",
+    "product_name": "L형 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1186/1386/1586/1786, 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "1P1",
+        "color_image": null
+      },
+      {
+        "code": "1P2",
+        "color_image": null
+      },
+      {
+        "code": "1P4A",
+        "color_image": null
+      },
+      {
+        "code": "1P6",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNF_C": {
+    "product_code": "FNF_C",
+    "series": "FlowFinder",
+    "product_name": "L형 캐노피 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1405/1605/1805, 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "1P1B",
+        "color_image": null
+      },
+      {
+        "code": "1P2",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNF_JA": {
+    "product_code": "FNF_JA",
+    "series": "FlowFinder",
+    "product_name": "디자인 전면 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1186/1386/1586/1786",
+    "color_options": [
+      {
+        "code": "6V1",
+        "color_image": null
+      },
+      {
+        "code": "6V4",
+        "color_image": null
+      },
+      {
+        "code": "6V5",
+        "color_image": null
+      },
+      {
+        "code": "6V7",
+        "color_image": null
+      },
+      {
+        "code": "6V8",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNF_JN": {
+    "product_code": "FNF_JN",
+    "series": "FlowFinder",
+    "product_name": "전면 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1186/1386/1586/1786",
+    "color_options": [
+      {
+        "code": "061(K)",
+        "color_image": null
+      },
+      {
+        "code": "064(K)",
+        "color_image": null
+      },
+      {
+        "code": "067(K)",
+        "color_image": null
+      },
+      {
+        "code": "3F1(K)",
+        "color_image": null
+      },
+      {
+        "code": "3F2(K)",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FDF107_108EA": {
+    "product_code": "FDF107_108EA",
+    "series": "FlowFinder",
+    "product_name": "디자인 측면 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "730 / 830 (2종 고정폭)",
+    "color_options": [
+      {
+        "code": "6V1",
+        "color_image": null
+      },
+      {
+        "code": "6V4",
+        "color_image": null
+      },
+      {
+        "code": "6V5",
+        "color_image": null
+      },
+      {
+        "code": "6V7",
+        "color_image": null
+      },
+      {
+        "code": "6V8",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FDF107_108EN": {
+    "product_code": "FDF107_108EN",
+    "series": "FlowFinder",
+    "product_name": "측면 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "730 / 830 (2종 고정폭)",
+    "color_options": [
+      {
+        "code": "061(K)",
+        "color_image": null
+      },
+      {
+        "code": "064(K)",
+        "color_image": null
+      },
+      {
+        "code": "067(K)",
+        "color_image": null
+      },
+      {
+        "code": "3F1(K)",
+        "color_image": null
+      },
+      {
+        "code": "3F2(K)",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FDF_B": {
+    "product_code": "FDF_B",
+    "series": "FlowFinder",
+    "product_name": "하부 스크린",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1100/1300/1500/1700",
+    "color_options": [
+      {
+        "code": "1P1",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "덕트형/일반형 공용"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNA0001": {
+    "product_code": "FNA0001",
+    "series": "FlowFinder",
+    "product_name": "페그보드 (L자형)",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "415 (고정), 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "DSG",
+        "color_image": null
+      },
+      {
+        "code": "BKM",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "단독 설치 불가"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNA0002C": {
+    "product_code": "FNA0002C",
+    "series": "FlowFinder",
+    "product_name": "페그보드 (환형)",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "480 (고정)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "DSG",
+        "color_image": null
+      },
+      {
+        "code": "BKM",
+        "color_image": null
+      }
+    ],
+    "notes": [],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNC427": {
+    "product_code": "FNC427",
+    "series": "FlowFinder",
+    "product_name": "옷장 (D700)",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "200 (고정), 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "NBK",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "HE=터치형 전자키, HD=터치형 전자키(NFC)"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNC428": {
+    "product_code": "FNC428",
+    "series": "FlowFinder",
+    "product_name": "옷장 (D800)",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "200 (고정), 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "NBK",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "HE=터치형 전자키, HD=터치형 전자키(NFC)"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNC127": {
+    "product_code": "FNC127",
+    "series": "FlowFinder",
+    "product_name": "오픈 스토리지 (W700)",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "200/1200, 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "FKI",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "연장대 FNC8001 별도주문"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNC128": {
+    "product_code": "FNC128",
+    "series": "FlowFinder",
+    "product_name": "오픈 스토리지 (W800)",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "200/1200, 좌우(L/R)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "FKI",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "연장대 FNC8001 별도주문"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "CA0935": {
+    "product_code": "CA0935",
+    "series": "FlowFinder",
+    "product_name": "조명",
+    "category": "조명",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "531 (고정)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "BK",
+        "color_image": null
+      }
+    ],
+    "notes": [],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNA0000": {
+    "product_code": "FNA0000",
+    "series": "FlowFinder",
+    "product_name": "수직 배선 커버 (원형다리용)",
+    "category": "액세서리",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "45 (고정)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "DSG",
+        "color_image": null
+      },
+      {
+        "code": "BKM",
+        "color_image": null
+      }
+    ],
+    "notes": [],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNF0001": {
+    "product_code": "FNF0001",
+    "series": "FlowFinder",
+    "product_name": "수직 배선 커버 (사다리/A자형다리용)",
+    "category": "액세서리",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "51 (고정)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "DSG",
+        "color_image": null
+      },
+      {
+        "code": "BKM",
+        "color_image": null
+      }
+    ],
+    "notes": [],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNP0301": {
+    "product_code": "FNP0301",
+    "series": "FlowFinder",
+    "product_name": "서랍형 트롤리",
+    "category": "수납장",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "490 (고정)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "FKI",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "개인 수납 유닛"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "FNS1": {
+    "product_code": "FNS1",
+    "series": "POWER BEAM (파워빔)",
+    "product_name": "파워빔",
+    "category": "책상",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "1467~2219 (타입별 상이)",
+    "color_options": [
+      {
+        "code": "WW",
+        "color_image": null
+      },
+      {
+        "code": "BKM",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "독립형/스타터/애더/앤더 4연결타입 × 배선방식(내장/외장일면/외장양면)"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "LF0": {
+    "product_code": "LF0",
+    "series": "ENLITE PANEL (인라이트 패널)",
+    "product_name": "패널",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "700/800/1000/1200/1400/1600/1800 (높이1170 고정)",
+    "color_options": [
+      {
+        "code": "061",
+        "color_image": null
+      },
+      {
+        "code": "064",
+        "color_image": null
+      },
+      {
+        "code": "067",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "경량 패널"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "KFS0": {
+    "product_code": "KFS0",
+    "series": "FX-1 PANEL (에프엑스원 패널)",
+    "product_name": "패널",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "600/700/800/1000/1200 × 높이 5종(965~1765)",
+    "color_options": [
+      {
+        "code": "1W",
+        "color_image": null
+      },
+      {
+        "code": "1AW",
+        "color_image": null
+      },
+      {
+        "code": "W1W",
+        "color_image": null
+      },
+      {
+        "code": "W1AW",
+        "color_image": null
+      },
+      {
+        "code": "W4W",
+        "color_image": null
+      },
+      {
+        "code": "W7W",
+        "color_image": null
+      },
+      {
+        "code": "1A1W 등 다수 조합",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "양면벨트/양면일반/양면외장벨트/일면벨트 4타입"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
+  },
+  "MF0": {
+    "product_code": "MF0",
+    "series": "DELIGHT PANEL (딜라이트 패널)",
+    "product_name": "패널",
+    "category": "파티션",
+    "space_category": "업무공간",
+    "images": {
+      "case": [],
+      "main": null,
+      "features": [],
+      "color_options": []
+    },
+    "sizes_raw": "600/700/800/1000/1200 × 높이 5종(965~1765)",
+    "color_options": [
+      {
+        "code": "1M",
+        "color_image": null
+      },
+      {
+        "code": "2M",
+        "color_image": null
+      },
+      {
+        "code": "4M",
+        "color_image": null
+      },
+      {
+        "code": "12M",
+        "color_image": null
+      },
+      {
+        "code": "14M",
+        "color_image": null
+      },
+      {
+        "code": "M1",
+        "color_image": null
+      },
+      {
+        "code": "M2",
+        "color_image": null
+      },
+      {
+        "code": "M4 등 조합",
+        "color_image": null
+      }
+    ],
+    "notes": [
+      "양면벨트/양면일반 2타입"
+    ],
+    "source": {
+      "excel": "엑셀 분류표.xlsx",
+      "pptx": null,
+      "slides_used": []
+    }
   }
 }
