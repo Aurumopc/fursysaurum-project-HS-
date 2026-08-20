@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>FURSYS 제품 상세 - 아임웹 동적 템플릿</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * { box-sizing: border-box; font-family: 'Pretendard', sans-serif; }
+  body { margin: 0; padding: 0; color: #222; background: #fff; }
+  .detail-wrapper { max-width: 1200px; margin: 0 auto; padding: 20px 20px 80px 20px; }
+  .breadcrumb { font-size: 12px; color: #888; margin-bottom: 24px; }
+  .breadcrumb span { margin: 0 6px; }
+  .top-section { display: flex; gap: 40px; margin-bottom: 60px; flex-wrap: wrap; }
+  .gallery-area { display: flex; gap: 16px; width: 55%; min-width: 320px; }
+  .thumb-list { display: flex; flex-direction: column; gap: 12px; width: 80px; max-height: 500px; overflow-y: auto; }
+  .thumb-item { width: 80px; height: 80px; flex: 0 0 auto; border: 1px solid #eee; border-radius: 8px; overflow: hidden; cursor: pointer; transition: border-color 0.2s; }
+  .thumb-item.active, .thumb-item:hover { border-color: #111; }
+  .thumb-item img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .main-img-box { flex-grow: 1; height: 500px; background: #fafafa; border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  .main-img-box img { width: 90%; height: 90%; object-fit: contain; }
+  .info-area { width: 45%; min-width: 320px; flex-grow: 1; }
+  .badge-best { display: inline-block; font-size: 11px; font-weight: 700; background: #f4f4f5; color: #555; padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; }
+  .title-box { display: flex; justify-content: space-between; align-items: flex-start; }
+  .p-title-eng { font-size: 24px; font-weight: 800; color: #111; margin: 0; }
+  .p-title-kor { font-size: 14px; color: #666; margin: 4px 0 0 0; }
+  .btn-wish { background: none; border: none; font-size: 22px; cursor: pointer; color: #ccc; }
+  .p-desc { font-size: 13px; color: #666; margin: 16px 0; line-height: 1.5; }
+  .price-box { font-size: 22px; font-weight: 800; color: #111; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+  .vat-text { font-size: 12px; font-weight: 400; color: #999; margin-left: 4px; }
+  .option-group { margin-bottom: 20px; }
+  .option-label { font-size: 13px; font-weight: 700; color: #222; margin-bottom: 10px; }
+  .swatch-group { display: flex; gap: 12px; flex-wrap: wrap; }
+  .swatch-item { text-align: center; cursor: pointer; }
+  .swatch-circle { width: 32px; height: 32px; border-radius: 50%; border: 1px solid #ddd; margin: 0 auto 4px auto; transition: transform 0.2s; background-size: cover; background-position: center; background-color: #f4f4f5; }
+  .swatch-item.active .swatch-circle { border: 2px solid #111; transform: scale(1.1); }
+  .swatch-name { font-size: 11px; color: #666; }
+  .btn-option-group { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn-option { padding: 10px 18px; font-size: 13px; border: 1px solid #e1e1e1; background: #fff; border-radius: 6px; cursor: pointer; color: #555; transition: all 0.2s; }
+  .btn-option:hover, .btn-option.active { border-color: #111; color: #111; font-weight: 700; background: #fafafa; }
+  .selected-spec-text { font-size: 12px; color: #888; margin-top: 10px; }
+  .action-group { margin-top: 30px; }
+  .btn-cart { width: 100%; padding: 16px; background: #111; color: #fff; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; margin-bottom: 10px; }
+  .btn-request { width: 100%; padding: 16px; background: #fff; color: #111; border: 1px solid #111; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 8px; }
+  .section-title { font-size: 16px; font-weight: 800; color: #111; margin-bottom: 20px; border-top: 1px solid #eee; padding-top: 40px; }
+  .spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 40px; background: #fafafa; padding: 24px; border-radius: 8px; font-size: 13px; margin-bottom: 50px; }
+  .spec-item { display: flex; }
+  .spec-label { width: 100px; color: #888; }
+  .spec-val { color: #222; font-weight: 600; }
+
+  /* ---- 특장점 카드 + 이미지 배너 (features 배열 동적 렌더용 추가 스타일) ---- */
+  .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; margin-bottom: 50px; }
+  .feature-block { display: flex; flex-direction: column; }
+  .feature-card { flex: 1; margin-bottom: 16px; }
+  .feature-no { display: inline-block; font-size: 11px; font-weight: 700; color: #999; border: 1px solid #ddd; border-radius: 4px; padding: 2px 6px; margin-bottom: 8px; }
+  .feature-card h4 { font-size: 14px; font-weight: 700; margin: 0 0 6px 0; color: #111; }
+  .feature-card p { font-size: 12px; color: #666; margin: 0; line-height: 1.6; white-space: pre-line; }
+  .feature-banner { border-radius: 12px; overflow: hidden; background: #fafafa; }
+  .feature-banner img { width: 100%; height: auto; display: block; }
+
+  /* ---- 제품 규격 표(spec_table) ---- */
+  .spec-table-wrap { overflow-x: auto; margin-bottom: 50px; }
+  table.spec-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.spec-table caption { text-align: left; font-size: 12px; color: #999; margin-bottom: 10px; }
+  table.spec-table th, table.spec-table td { padding: 12px 14px; text-align: center; border-bottom: 1px solid #eee; }
+  table.spec-table thead th { background: #fafafa; color: #555; font-weight: 700; border-top: 1px solid #111; border-bottom: 1px solid #ddd; }
+  table.spec-table tbody tr:hover { background: #fafafa; }
+  table.spec-table tbody tr.is-selected { background: #f4f4f5; font-weight: 700; }
+
+  .note-list { font-size: 12px; color: #999; margin: -30px 0 50px 0; line-height: 1.6; }
+
+  .state-box { padding: 80px 20px; text-align: center; color: #999; font-size: 14px; }
+  .state-box.error { color: #c0392b; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<div class="detail-wrapper">
+
+  <!-- 로딩 상태 -->
+  <div id="loadingState" class="state-box">상품 정보를 불러오는 중입니다...</div>
+
+  <!-- 에러 상태 -->
+  <div id="errorState" class="state-box error hidden"></div>
+
+  <!-- 실제 상세페이지 컨텐츠: 데이터 로드 완료 후 hidden 해제 -->
+  <div id="detailContent" class="hidden">
+
+    <!-- 브레드크럼 -->
+    <div class="breadcrumb" id="breadcrumb"></div>
+
+    <div class="top-section">
+      <!-- 좌측: 갤러리 -->
+      <div class="gallery-area">
+        <div class="thumb-list" id="thumbList"></div>
+        <div class="main-img-box">
+          <img id="mainDisplayImg" src="" alt="상품 대표 이미지">
+        </div>
+      </div>
+
+      <!-- 우측: 상품 정보 / 옵션 -->
+      <div class="info-area">
+        <span class="badge-best" id="categoryBadge"></span>
+        <div class="title-box">
+          <div>
+            <h1 class="p-title-eng" id="titleEng"></h1>
+            <p class="p-title-kor" id="titleKor"></p>
+          </div>
+          <button type="button" class="btn-wish" id="wishBtn" aria-label="찜하기">♡</button>
+        </div>
+        <p class="p-desc" id="productDesc"></p>
+
+        <div class="price-box">
+          <span id="priceText">가격 문의</span><span class="vat-text">(VAT 포함)</span>
+        </div>
+
+        <!-- 사이즈(W규격) 옵션: spec_table 기반 동적 생성 -->
+        <div class="option-group" id="sizeOptionGroup">
+          <div class="option-label">사이즈 선택</div>
+          <div class="btn-option-group" id="sizeOptionButtons"></div>
+          <div class="selected-spec-text" id="selectedSpecText"></div>
+        </div>
+
+        <!-- 컬러/마감 옵션: color_options.images 가 있을 때만 렌더 -->
+        <div class="option-group hidden" id="colorOptionGroup">
+          <div class="option-label">컬러 / 마감</div>
+          <div class="swatch-group" id="colorSwatchGroup"></div>
+        </div>
+
+        <div class="action-group">
+          <button type="button" class="btn-cart" id="addCartBtn">장바구니 담기</button>
+          <button type="button" class="btn-request" id="requestBtn">📩 견적/구매 문의</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 하단: 주요 특장점 (features 배열: no / title / description / image) -->
+    <h2 class="section-title">주요 특장점</h2>
+    <div class="feature-grid" id="featureGrid"></div>
+
+    <!-- 하단: 제품 규격 표 (spec_table 배열) -->
+    <h2 class="section-title">제품 규격</h2>
+    <div class="spec-grid" id="specSummaryGrid"></div>
+    <div class="spec-table-wrap">
+      <table class="spec-table">
+        <caption>단위: mm (가로 × 세로 × 높이)</caption>
+        <thead>
+          <tr>
+            <th>품번</th>
+            <th>가로(W)</th>
+            <th>세로(D)</th>
+            <th>높이(H)</th>
+          </tr>
+        </thead>
+        <tbody id="specTableBody"></tbody>
+      </table>
+    </div>
+
+    <!-- 비고(notes) -->
+    <ul class="note-list" id="notesList"></ul>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // =========================================================
+  // 설정: 깃허브 raw 콘텐츠 Base URL + products.json 내 상품 코드
+  // =========================================================
+  var GITHUB_BASE = "https://raw.githubusercontent.com/Aurumopc/fursysaurum-project-HS-/main/";
+  var PRODUCTS_JSON_URL = GITHUB_BASE + "data/products.json";
+
+  // 아임웹 페이지 주소에 ?product=FBD 형태로 넘기면 해당 품번을, 없으면 기본값(FBD)을 사용
+  function getProductCodeFromQuery() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get("product") || "FBD";
+  }
+  var PRODUCT_CODE = getProductCodeFromQuery();
+
+  // =========================================================
+  // 유틸
+  // =========================================================
+  function assetUrl(relativePath) {
+    if (!relativePath) return "";
+    // products.json 에는 "images/FBD/main.jpg" 처럼 저장소 루트 기준 상대경로가 들어있음
+    return GITHUB_BASE + relativePath.replace(/^\//, "");
+  }
+
+  function formatPrice(value) {
+    if (typeof value !== "number" || isNaN(value)) return "가격 문의";
+    return "₩" + value.toLocaleString("ko-KR");
+  }
+
+  function el(id) {
+    return document.getElementById(id);
+  }
+
+  function show(node) { node.classList.remove("hidden"); }
+  function hide(node) { node.classList.add("hidden"); }
+
+  // =========================================================
+  // 상태
+  // =========================================================
+  var state = {
+    product: null,
+    selectedSpec: null,   // spec_table 중 선택된 row
+    selectedColorIdx: -1
+  };
+
+  // =========================================================
+  // 렌더링
+  // =========================================================
+  function renderBreadcrumb(p) {
+    var parts = ["홈"];
+    if (p.category) parts.push(p.category);
+    if (p.series) parts.push(p.series);
+    if (p.product_name) parts.push(p.product_name);
+    el("breadcrumb").innerHTML = parts
+      .map(function (t) { return t; })
+      .join('<span>&gt;</span>');
+  }
+
+  function renderHeader(p) {
+    el("categoryBadge").textContent = p.category || p.series || "FURSYS";
+    // 영문 타이틀: 별도 영문 제품명 필드가 없으면 시리즈명(영문 표기)을 사용
+    el("titleEng").textContent = p.product_name_en || p.series || p.product_code || "";
+    // 한글 타이틀: 제품명(한글)
+    el("titleKor").textContent = p.product_name || "";
+    // 부제(설명)
+    el("productDesc").textContent = p.product_subtitle || "";
+  }
+
+  function collectGalleryImages(p) {
+    var list = [];
+    var images = p.images || {};
+
+    if (images.main) {
+      list.push({ src: images.main, label: "메인 컷" });
+    }
+    (images.case || []).forEach(function (src, i) {
+      list.push({ src: src, label: "공간 연출 " + (i + 1) });
+    });
+    (images.features || []).forEach(function (src, i) {
+      list.push({ src: src, label: "특장점 " + (i + 1) });
+    });
+
+    // main 이 없을 경우를 대비한 폴백
+    if (list.length === 0 && images.color_options && images.color_options.length) {
+      list.push({ src: images.color_options[0], label: "이미지" });
+    }
+    return list;
+  }
+
+  function renderGallery(p) {
+    var images = collectGalleryImages(p);
+    var thumbList = el("thumbList");
+    var mainImg = el("mainDisplayImg");
+    thumbList.innerHTML = "";
+
+    if (images.length === 0) {
+      mainImg.removeAttribute("src");
+      mainImg.alt = "이미지 없음";
+      return;
+    }
+
+    images.forEach(function (img, idx) {
+      var thumb = document.createElement("div");
+      thumb.className = "thumb-item" + (idx === 0 ? " active" : "");
+      thumb.setAttribute("role", "button");
+      thumb.setAttribute("tabindex", "0");
+
+      var thumbImg = document.createElement("img");
+      thumbImg.src = assetUrl(img.src);
+      thumbImg.alt = img.label;
+      thumb.appendChild(thumbImg);
+
+      thumb.addEventListener("click", function () {
+        changeMainImg(assetUrl(img.src), thumb);
+      });
+      thumbList.appendChild(thumb);
+    });
+
+    // 첫 번째 이미지를 기본 메인 이미지로 표시
+    mainImg.src = assetUrl(images[0].src);
+    mainImg.alt = images[0].label;
+  }
+
+  // 썸네일 클릭 시 메인 이미지 영역을 갱신하는 함수
+  function changeMainImg(url, thumbEl) {
+    el("mainDisplayImg").src = url;
+    var allThumbs = document.querySelectorAll(".thumb-item");
+    allThumbs.forEach(function (t) { t.classList.remove("active"); });
+    if (thumbEl) thumbEl.classList.add("active");
+  }
+
+  function getOptionPrice(specRow, product) {
+    if (specRow && typeof specRow.price === "number") return specRow.price;
+    if (product && typeof product.base_price === "number") return product.base_price;
+    return null; // products.json 에 가격 필드가 없으면 "가격 문의"로 표시
+  }
+
+  function renderPrice() {
+    var price = getOptionPrice(state.selectedSpec, state.product);
+    el("priceText").textContent = formatPrice(price);
+  }
+
+  function renderSizeOptions(p) {
+    var specTable = p.spec_table || [];
+    var group = el("sizeOptionButtons");
+    group.innerHTML = "";
+
+    if (specTable.length === 0) {
+      hide(el("sizeOptionGroup"));
+      return;
+    }
+    show(el("sizeOptionGroup"));
+
+    specTable.forEach(function (row, idx) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "btn-option" + (idx === 0 ? " active" : "");
+      btn.textContent = row.width_mm ? row.width_mm + "mm" : row.product_code;
+      btn.title = row.product_code + " (" + row.width_mm + "×" + row.depth_mm + "×" + row.height_mm + "mm)";
+
+      btn.addEventListener("click", function () {
+        selectSizeOption(row, btn);
+      });
+      group.appendChild(btn);
+
+      if (idx === 0) {
+        state.selectedSpec = row;
+      }
+    });
+
+    updateSelectedSpecText();
+  }
+
+  // 사이즈 옵션 버튼 클릭 시 선택 스타일 적용 + 가격 반영
+  function selectSizeOption(row, btnEl) {
+    state.selectedSpec = row;
+    document.querySelectorAll("#sizeOptionButtons .btn-option").forEach(function (b) {
+      b.classList.remove("active");
+    });
+    btnEl.classList.add("active");
+    updateSelectedSpecText();
+    renderPrice();
+  }
+
+  function updateSelectedSpecText() {
+    var row = state.selectedSpec;
+    var box = el("selectedSpecText");
+    if (!row) { box.textContent = ""; return; }
+    box.textContent = "선택 품번 " + row.product_code + " · " +
+      row.width_mm + " x " + row.depth_mm + " x " + row.height_mm + " (mm)";
+  }
+
+  function renderColorOptions(p) {
+    var colorOptions = p.color_options || {};
+    var images = colorOptions.images || [];
+    var materials = colorOptions.materials || [];
+    var group = el("colorSwatchGroup");
+    group.innerHTML = "";
+
+    if (images.length === 0) {
+      hide(el("colorOptionGroup"));
+      return;
+    }
+    show(el("colorOptionGroup"));
+
+    images.forEach(function (src, idx) {
+      var item = document.createElement("div");
+      item.className = "swatch-item" + (idx === 0 ? " active" : "");
+      item.setAttribute("role", "button");
+      item.setAttribute("tabindex", "0");
+
+      var circle = document.createElement("div");
+      circle.className = "swatch-circle";
+      circle.style.backgroundImage = "url('" + assetUrl(src) + "')";
+
+      var name = document.createElement("div");
+      name.className = "swatch-name";
+      name.textContent = materials[idx] || ("옵션 " + (idx + 1));
+
+      item.appendChild(circle);
+      item.appendChild(name);
+
+      item.addEventListener("click", function () {
+        selectColorOption(idx, item);
+      });
+      group.appendChild(item);
+    });
+
+    state.selectedColorIdx = 0;
+  }
+
+  function selectColorOption(idx, itemEl) {
+    state.selectedColorIdx = idx;
+    document.querySelectorAll("#colorSwatchGroup .swatch-item").forEach(function (s) {
+      s.classList.remove("active");
+    });
+    itemEl.classList.add("active");
+  }
+
+  function renderFeatures(p) {
+    var features = p.features || [];
+    var grid = el("featureGrid");
+    grid.innerHTML = "";
+
+    features.forEach(function (f) {
+      var block = document.createElement("div");
+      block.className = "feature-block";
+
+      var card = document.createElement("div");
+      card.className = "feature-card";
+
+      if (f.no) {
+        var no = document.createElement("span");
+        no.className = "feature-no";
+        no.textContent = f.no;
+        card.appendChild(no);
+      }
+
+      var h4 = document.createElement("h4");
+      h4.textContent = f.title || "";
+      card.appendChild(h4);
+
+      var pText = document.createElement("p");
+      pText.textContent = f.description || "";
+      card.appendChild(pText);
+
+      block.appendChild(card);
+
+      if (f.image) {
+        var banner = document.createElement("div");
+        banner.className = "feature-banner";
+        var img = document.createElement("img");
+        img.src = assetUrl(f.image);
+        img.alt = f.title || "특장점 이미지";
+        banner.appendChild(img);
+        block.appendChild(banner);
+      }
+
+      grid.appendChild(block);
+    });
+  }
+
+  function renderSpecSummary(p) {
+    var grid = el("specSummaryGrid");
+    grid.innerHTML = "";
+    var rows = [
+      { label: "시리즈", value: p.series },
+      { label: "카테고리", value: p.category },
+      { label: "제품 타입", value: p.product_subtitle },
+      { label: "품번(대표)", value: p.product_code }
+    ];
+    rows.forEach(function (r) {
+      if (!r.value) return;
+      var item = document.createElement("div");
+      item.className = "spec-item";
+      item.innerHTML = '<span class="spec-label">' + r.label + '</span><span class="spec-val"></span>';
+      item.querySelector(".spec-val").textContent = r.value;
+      grid.appendChild(item);
+    });
+  }
+
+  function renderSpecTable(p) {
+    var specTable = p.spec_table || [];
+    var tbody = el("specTableBody");
+    tbody.innerHTML = "";
+
+    specTable.forEach(function (row) {
+      var tr = document.createElement("tr");
+      tr.dataset.productCode = row.product_code;
+      tr.innerHTML =
+        "<td>" + (row.product_code || "-") + "</td>" +
+        "<td>" + (row.width_mm != null ? row.width_mm : "-") + "</td>" +
+        "<td>" + (row.depth_mm != null ? row.depth_mm : "-") + "</td>" +
+        "<td>" + (row.height_mm != null ? row.height_mm : "-") + "</td>";
+      tbody.appendChild(tr);
+    });
+  }
+
+  function renderNotes(p) {
+    var notes = p.notes || [];
+    var list = el("notesList");
+    list.innerHTML = "";
+    notes.forEach(function (n) {
+      var li = document.createElement("li");
+      li.textContent = n;
+      list.appendChild(li);
+    });
+  }
+
+  function renderAll(p) {
+    state.product = p;
+    renderBreadcrumb(p);
+    renderHeader(p);
+    renderGallery(p);
+    renderSizeOptions(p);
+    renderColorOptions(p);
+    renderPrice();
+    renderFeatures(p);
+    renderSpecSummary(p);
+    renderSpecTable(p);
+    renderNotes(p);
+  }
+
+  // =========================================================
+  // 액션 버튼 (아임웹 장바구니/문의 API 연동 지점)
+  // =========================================================
+  function bindActions() {
+    el("addCartBtn").addEventListener("click", function () {
+      var row = state.selectedSpec;
+      var summary = state.product.product_name +
+        (row ? " / " + row.product_code + " (" + row.width_mm + "x" + row.depth_mm + "x" + row.height_mm + ")" : "");
+      // TODO: 아임웹 장바구니 SDK 연동 지점 (예: IMWEB.cart.add(...))
+      alert("장바구니 담기\n" + summary);
+    });
+
+    el("requestBtn").addEventListener("click", function () {
+      var row = state.selectedSpec;
+      var summary = state.product.product_name +
+        (row ? " / " + row.product_code : "");
+      // TODO: 아임웹 문의폼/상담 연동 지점
+      alert("견적/구매 문의\n" + summary);
+    });
+
+    el("wishBtn").addEventListener("click", function () {
+      var btn = el("wishBtn");
+      var wished = btn.classList.toggle("wished");
+      btn.textContent = wished ? "♥" : "♡";
+      btn.style.color = wished ? "#e74c3c" : "#ccc";
+    });
+  }
+
+  // =========================================================
+  // 데이터 로드
+  // =========================================================
+  function init() {
+    fetch(PRODUCTS_JSON_URL, { cache: "no-cache" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("products.json 요청 실패 (status " + res.status + ")");
+        return res.json();
+      })
+      .then(function (allProducts) {
+        var product = allProducts[PRODUCT_CODE];
+        if (!product) {
+          throw new Error("'" + PRODUCT_CODE + "' 품번 데이터를 products.json 에서 찾을 수 없습니다.");
+        }
+        renderAll(product);
+        bindActions();
+        hide(el("loadingState"));
+        show(el("detailContent"));
+      })
+      .catch(function (err) {
+        hide(el("loadingState"));
+        var box = el("errorState");
+        box.textContent = "상품 정보를 불러오지 못했습니다: " + err.message +
+          " (GitHub 저장소가 Private 상태이면 raw.githubusercontent.com 접근이 차단됩니다. 저장소를 Public 으로 전환했는지 확인해 주세요.)";
+        show(box);
+      });
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
+})();
+</script>
+
+</body>
+</html>
